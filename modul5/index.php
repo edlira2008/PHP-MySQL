@@ -9,10 +9,22 @@ $students=array(
 for ($row=0; $row<count($students);$row++){
     echo "<ul>";
 for($column=0;$column<count($students[$row]);$column++){
-    echo "<li>".$students[$row][$columnm]."</li>"
+    echo "<li>".$students[$row][$column]."</li>";
 }
  echo "</ul>";
 }
+
+
+$grades=array(
+    'math'=> 3,
+
+    "history" => 5,
+    "english" =>4,
+);
+
+echo $grades["history"]; 
+
+
 
 
 
