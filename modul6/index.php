@@ -17,6 +17,7 @@ foreach($ditet_e_javes as $dita){
 
 // file manipualtion osht msimi i ri  
 
+// moda osht qikjo;
 // read plus
 // w - e ka sshtu nese se ka gjet ni file
 // r+ read and write
@@ -35,3 +36,13 @@ for($i=1;$i<101;$i++){
 fclose($my_file);
 
 ?>
+
+
+
+<!-- entitet oshtg ni produkt -->
+ <!-- relacional - tabelat cilat lidhen mes veti ku kto ldhje bohen permes keys -->
+  <!-- primary key edhe foreign key -->
+   <!-- foreign key e mundson lidhjen e tabelave  -->
+<!-- database - veni ku ruhet nje e dhane -->
+ <!-- SQL - structure query language e ka emrin  -->
+ MZZ
