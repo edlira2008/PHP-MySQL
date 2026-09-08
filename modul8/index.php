@@ -6,8 +6,10 @@
 // databaz relacionare nderlidhen informata mes  veti 
 // data type osht string , integer , float, booleann  etj
 // PDO - e krijon lidhjen mes serverit dhe database 
-// AUTO INCREMENET E RIT NI SEN 
+// AUTO INCREMENET E RrIT NI SEN 
 // structure query languafe SQL
+// crud - create read update delete
+
 
 $host="localhost";
 $user="root";
@@ -28,9 +30,10 @@ try{
 $sql="INSERT INTO users (username, password, age) VALUES ('edlira.kastrati', 'genius1fs23!' , 17);";
 $conn -> exec($sql);
  echo "new row is inserted succcesfully!";
- }catch(Exception $e){
-    echo "something went wrong ";
-}
+ }catch(Exception $msg){
+    echo "something went wrong $msg";  
+    // qikjo exception  msg osht variabla qe nese shkn keq diqka te kodi ajo automatikisht  ttregon se pse fal saj 
+    }
 
 
 
