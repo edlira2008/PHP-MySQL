@@ -2,12 +2,12 @@
 
 // creating tables . deletng , inserting rows using
 
-// primary key run sene uniike
-// databaz relacionare nderlidhen informata mes  veti 
-// data type osht string , integer , float, booleann  etj
+// primary key run sene unike
+// databaza relacionare nderlidhen informata mes  veti 
+// data type osht string , integer , float, boolean  etj
 // PDO - e krijon lidhjen mes serverit dhe database 
-// AUTO INCREMENET E RrIT NI SEN 
-// structure query languafe SQL
+// AUTO INCREMENET E rrit ni sen 
+// structure query language SQL
 // crud - create read update delete
 
 
