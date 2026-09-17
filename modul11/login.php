@@ -1,6 +1,6 @@
 <?php
 
-// bootstrap sherben per xhvi;;imin e webave dmth e ka kodin e html edhe cs
+// bootstrap sherben per zvillimin e webave dmth e ka kodin e html edhe cs
 //  getbootstrap.com osht per me marr kod t gatshem
 
 
@@ -24,7 +24,7 @@ include_once("header.php");
 
 <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit" > Sign in</button>
 
-<small>dont have account? <a href="signup.php"> sign up </a> </small>
+<small> Don't have account? <a href="signup.php"> sign up </a> </small>
 <p> digital school &copy; 2026 </p>
 <p class="mt-5 m-3 text-muted"> digital school &copy; 2026 </P>
 
@@ -36,7 +36,7 @@ include_once("header.php");
 
 <?php
 
-// bootstrap sherben per xhvi;;imin e webave dmth e ka kodin e html edhe cs
+// bootstrap sherben per xhirmin e webave dmth e ka kodin e html edhe cs
 //  getbootstrap.com osht per me marr kod t gatshem
 include_once("footer.php");
 ?>

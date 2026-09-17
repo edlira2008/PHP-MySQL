@@ -47,7 +47,10 @@ foreach($users as $person){
         <td><?= $person['USERNAME'] ?> </td>
         <td><?= $person['password'] ?> </td>
         <td><?= $person['age'] ?> </td>
-        <td><button><a href="delete.php?id=<?= $person['id'] ?> ">delete </a> </button></td>
+        <td>
+            <button><a href="delete.php?id=<?= $person['id'] ?> ">delete </a> </button>
+            <button><a href="edit.php?id=<?= $person['id'] ?> "> EDIT</a> </button>
+        </td>
 
         
     </tr>
@@ -60,6 +63,6 @@ foreach($users as $person){
             </tbody>
         </table>
 
-<a href="/modul9/form.HTML"> add user </a>
+<a href="../modul9/form.HTML"> add user </a>
     </body>
 </html>
