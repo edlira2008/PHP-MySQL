@@ -52,7 +52,7 @@ echo "$c:".str_word_count($c);
 <?php
 $new_string = str_replace("School", "Academy", $school);
 echo $new_string;
-?>
+?> 
 <br>
 <?php
 echo strrev($school);
