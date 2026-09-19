@@ -26,9 +26,9 @@ foreach($ditet_e_javes as $dita){
 $my_file=fopen("ds.txt","r+");
 $all_text=fread($my_file,100);
 
-// $my_text=$all_text."\n kujdes me karrige! \n";
-// fwrite($my_file,$my_text);
-// fclose($my_file);
+$my_text=$all_text."\n kujdes me karrige! \n";
+fwrite($my_file,$my_text);
+fclose($my_file);
 
 for($i=1;$i<101;$i++){
     fwrite($my_file, "text text text text $i\n");
