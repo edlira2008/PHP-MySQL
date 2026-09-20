@@ -9,7 +9,7 @@
 	exit;
 ?>
 
-<?php
+<!-- <?php
 $host='localhost';
 $user='root';
 $pass="";
@@ -28,4 +28,4 @@ echo "database is created";
 }
 
 
-?>
+?> -->
