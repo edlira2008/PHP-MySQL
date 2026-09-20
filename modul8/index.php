@@ -19,7 +19,7 @@ $db_name="testdb";
 
 try{
  $conn=new PDO("mysql:host=$host;dbname=$db_name", $user, $password);
-//  $sql="create database testdb"; na nevojitet vetem ni her kur e krijojme dataase e re
+//  $sql="create database testdb"; 
  
 
 // $sql="CREATE TABLE users (id int(6) not null AUTO_INCREMENT PRIMARY KEY,

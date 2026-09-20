@@ -2,7 +2,7 @@
 $students=array(
     array("drini", "prishtine" , 13),
     array('syari',"prishtine" ,16),
-    array('edlira',"kastriot" ,17),
+    array('edlira',"kastriot" ,17)
     array('patris',"prishtine" ,16),
 );
 

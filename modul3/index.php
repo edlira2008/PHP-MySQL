@@ -3,7 +3,7 @@
         return $y;
     }else{
         return $x;
-    }
+    } 
     
 }
 // asociative key value shembullli me land moduli 5 kqyre ne fund
@@ -19,7 +19,7 @@ echo "<br><h1>The maximum number is: $greatest </h1> <br>";
  function odd_even($nr){
  if($nr%2==0){
     echo "even";
-
+        
  }else{
     echo 'odd';
  }
@@ -36,9 +36,20 @@ echo "<br><h1>The maximum number is: $greatest </h1> <br>";
     echo $fruits[$i]."<br>";
  }
 
-
+?>
+<?php
 
  $mobile=["iphone","ipad","television","phone"];
  for($i=0; $i<count($mobile);$i++){
    echo $mobile[$i]."<br>";
  }
+
+ $tetx ="";
+
+ for($i=5; $i< 15; $i++_){
+   echo $tetx[$i]."the numbrr is;" . '<br>';
+ }
+ 
+
+
+ ?>
