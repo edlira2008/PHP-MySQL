@@ -5,7 +5,6 @@
 
  $id = $_GET['id'];
 
-
   $sql="SELECT * FROM users WHERE id=:id";
   $prep=$conn->prepare($sql);
   $prep->bindParam(":id",$id);
@@ -31,7 +30,7 @@
         <input type="text" name="uname" placeholder="Username" value="<?php echo $user['USERNAME']?>"><br>
         <input type="password" name="passwordi" placeholder="Password" value="<?php echo $user['password']?>"><br>
         <input type="number" name="age" placeholder="age" value="<?php echo $user['age']?>"><br>
-        <button type="submit" name="submit" placeholder="submit">Add </button>
+        <button type="submit" name="submit" placeholder="submit"> Add </button>
 
 
 </form>

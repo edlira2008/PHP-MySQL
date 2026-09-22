@@ -12,7 +12,7 @@ if(isset($_POST['submit'])){
     
     $hashed_password=password_hash($password, PASSWORD_BCRYPT);
 
-    $sql="UPDATE  users SET username='$username', password='$hashed_password',age=$age WHERE id=$id";
+    $sql="UPDATE users SET username='$username', password='$hashed_password',age=$age WHERE id=$id";
 
       $prep=$conn->prepare($sql);
       $prep->execute();

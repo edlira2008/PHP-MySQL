@@ -36,7 +36,7 @@ include_once("header.php");
 
 <?php
 
-// bootstrap sherben per xhirmin e webave dmth e ka kodin e html edhe cs
+// bootstrap sherben per zhvillimin e webave dmth e ka kodin e html edhe css.
 //  getbootstrap.com osht per me marr kod t gatshem
 include_once("footer.php");
 ?>
