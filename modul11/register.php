@@ -2,7 +2,6 @@
 include_once("config.php");
 if(isset($_POST['submit'])){
     $name=$_POST['name'];
-    $surname=$_POST['surname'];
     $username=$_POST['username'];
     $email=$_POST['email'];
     $password=$_POST['password'];
@@ -10,7 +9,6 @@ if(isset($_POST['submit'])){
     $hashed_password=password_hash($password,PASSWORD_BCRYPT);
 
     if(empty($name)||
-    empty($surname)||
     empty($username)||
     empty($email)||
     empty($password)){
@@ -20,14 +18,15 @@ if(isset($_POST['submit'])){
         $tempSQL=$conn->prepare($sql) ;
         $tempSQL->execute();
         
-        
+
         if($tempSQL->rowCount()>0){
             echo"thus username or email already ecxists";
             header("refresh:2", 'signup.php');
 
         }
+
         else{
-            $sql="INSERT INTO user_login(name,surname,username,email,password) VALUES('$name','$surname','$username','$email','$hashed_password')";
+            $sql="INSERT INTO user_login(id,name,username,email,password) VALUES(15,'$name','$username','$email','$hashed_password')";
 
             $insertSql=$conn->prepare($sql);
             $insertSql->execute();
