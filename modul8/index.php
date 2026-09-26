@@ -19,13 +19,13 @@ $db_name="testdb";
 
 try{
  $conn=new PDO("mysql:host=$host;dbname=$db_name", $user, $password);
-//  $sql="create database testdb"; 
+ $sql="create database testdb"; 
  
 
-// $sql="CREATE TABLE users (id int(6) not null AUTO_INCREMENT PRIMARY KEY,
-// USERNAME varchar(30) not null,
-// password varchar(30) not null,
-// age int(30))";
+$sql="CREATE TABLE users (id int(6) not null AUTO_INCREMENT PRIMARY KEY,
+USERNAME varchar(30) not null,
+password varchar(30) not null,
+age int(30))";
 
 $sql="INSERT INTO users (username, password, age) VALUES ('edlira.kastrati', 'genius1fs23!' , 17);";
 $conn -> exec($sql);
