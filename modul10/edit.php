@@ -1,9 +1,9 @@
 <?php
 
- include_once('config.php');
+ include_once("config.php");
 
 
- $id = $_GET['id'];
+//  $id = $_GET['id'];
 
 
   $sql="SELECT * FROM users WHERE id=:id";
@@ -28,7 +28,7 @@
      <form action="update.php" method="post">
 
        <input type="hidden"  name="id" value="<?php echo $user['id']?>"><br>
-        <input type="text" name="uname" placeholder="Username" value="<?php echo $user['USERNAME']?>"><br>
+        <input type="text" name="uname" placeholder="Username" value="<?php echo $user['username']?>"><br>
         <input type="password" name="passwordi" placeholder="Password" value="<?php echo $user['password']?>"><br>
         <input type="number" name="age" placeholder="age" value="<?php echo $user['age']?>"><br>
         <button type="submit" name="submit" placeholder="submit">Add </button>

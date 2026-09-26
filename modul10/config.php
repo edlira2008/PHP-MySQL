@@ -10,7 +10,7 @@
 // e njejt si PDO DMTH API 
 // API DMTH EDH T BOOTSTRAP
 try{
-    $conn =new  PDO("mysql:host=$host;dbname=$db_name", 'root', "");
+    $conn =new  PDO("mysql:host=localhost;dbname=$db_name", 'root', "");
     // echo "connected successfully!";
 
 }  catch (PDOException $e) {

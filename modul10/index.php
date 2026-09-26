@@ -44,7 +44,7 @@ foreach($users as $person){
     ?>
     <tr>
         <td><?= $person['id'] ?> </td>
-        <td><?= $person['USERNAME'] ?> </td>
+        <td><?= $person['username'] ?> </td>
         <td><?= $person['password'] ?> </td>
         <td><?= $person['age'] ?> </td>
         <td>

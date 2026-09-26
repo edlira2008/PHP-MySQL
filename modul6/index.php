@@ -45,4 +45,3 @@ fclose($my_file);
    <!-- foreign key e mundson lidhjen e tabelave  -->
 <!-- database - veni ku ruhet nje e dhane -->
  <!-- SQL - structure query language e ka emrin  -->
- MZZwetyiohsazcv

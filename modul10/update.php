@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
     $sql="UPDATE  users SET username='$username', password='$hashed_password',age=$age WHERE id=$id";
 
       $prep=$conn->prepare($sql);
-      $prep->execute();
+      // $prep->execute($sql);
       echo 'new record created succesfully!';
 
       header("Location:index.php");
